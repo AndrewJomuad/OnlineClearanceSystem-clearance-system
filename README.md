@@ -1,14 +1,24 @@
-# Online Clearance System
+# University Portal App
 
-Online Clearance System is a .NET 6 Windows Forms application designed for managing online clearance requests.
+This is a complete C# .NET Windows Forms project for a University Portal Login and Registration system.
 
-## Setup Instructions
-1. Clone the repository.
-2. Open `OnlineClearanceSystem.sln` in Visual Studio.
-3. Restore NuGet packages if prompted.
-4. Build the solution.
-5. Run the application.
+## Project Structure
+- `UniversityPortalApp.csproj`: The modern .NET SDK project file.
+- `Program.cs`: The application entry point.
+- `LoginForm.cs` / `LoginForm.Designer.cs` / `LoginForm.resx`: The login screen implementation.
+- `RegisterForm.cs` / `RegisterForm.Designer.cs`: The registration screen implementation.
 
-## Usage Instructions
-- Admin users can manage clearance requests, view logs, and handle approvals.
-- Students can submit clearance requests and monitor their status.
+## Features
+- **Modern UI**: Dark blue theme with white card layout.
+- **Form Navigation**: Seamless switching between Login and Register forms.
+- **Placeholder Logic**: Custom implementation for text field placeholders.
+- **High DPI Support**: Uses modern .NET 6+ configuration.
+
+## How to Use
+1. Extract the files into a folder named `UniversityPortalApp`.
+2. Open the `UniversityPortalApp.csproj` file in **Visual Studio 2022** or later.
+3. Press **F5** to build and run the application.
+
+## Requirements
+- .NET 6.0 SDK or later.
+- Visual Studio 2022 (recommended) or VS Code with C# Dev Kit.
